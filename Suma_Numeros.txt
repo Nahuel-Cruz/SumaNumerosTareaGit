@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class SumaNumeros
+{
+    public static void main( String[] args )
+    {
+        int n1, n2, suma;
+        Scanner sc = new Scanner( System.in );
+
+        System.out.print( "Introduzca primer número: " );
+        n1 = sc.nextInt();
+        System.out.print( "Introduzca segundo número: " );
+        n2 = sc.nextInt();
+	
+
+        suma = n1 + n2;
+        System.out.println( "La suma de " + n1 + " más " + n2 + " es " + suma);
+    }
+}
